@@ -1,7 +1,17 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rails db:seed command (or created alongside the database with db:setup).
-#
-# Examples:
-#
-#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
-#   Character.create(name: 'Luke', movie: movies.first)
+Character.destroy_all
+
+mario = Character.create(name: 'Mario', character_image: 'https://www.ssbwiki.com/images/2/2e/Mario_SSB4_Alt.png')
+luigi = Character.create(name: 'Luigi', character_image: 'https://www.ssbwiki.com/images/e/e2/Luigi_SSB4.png')
+bowser = Character.create(name: 'Bowser', character_image: 'https://www.ssbwiki.com/images/d/d5/Bowser_SSB4.png')
+fox = Character.create(name: 'Fox', character_image: 'https://www.ssbwiki.com/images/7/74/Fox_SSB4.png')
+princess_peach = Character.create(name: 'Princess Peach', character_image: 'https://www.ssbwiki.com/images/2/23/Peach_SSB4.png')
+ice_climbers = Character.create(name: 'Ice Climbers', character_image: 'https://www.ssbwiki.com/images/1/12/Ice_Climbers_SSBU.png')
+pikachu = Character.create(name: 'Pikachu', character_image: 'https://www.ssbwiki.com/images/a/a0/Pikachu_SSB4.png')
+kirby = Character.create(name: 'Kirby', character_image: 'https://www.ssbwiki.com/images/e/ed/Kirby_SSB4.png')
+link = Character.create(name: 'Link', character_image: 'https://www.ssbwiki.com/images/3/32/Link_SSB4.png')
+yoshi = Character.create(name: 'Yoshi', character_image: 'https://www.ssbwiki.com/images/2/29/Yoshi_SSB4.png')
+jiggly_puff = Character.create(name: 'Jiggly Puff', character_image: 'https://www.ssbwiki.com/images/a/a6/Jigglypuff_SSB4.png')
+toad = Character.create(name: 'Toad', character_image: 'https://upload.wikimedia.org/wikipedia/en/d/d1/Toad_3D_Land.png')
+mewtwo = Character.create(name: 'Mewtwo', character_image: 'https://www.ssbwiki.com/images/d/da/Mewtwo_SSB4.png')
+ike = Character.create(name: 'Ike', character_image: 'https://www.ssbwiki.com/images/e/e8/Ike_SSB4.png')
+mr_game_watch = Character.create(name: 'Mr. Game & Watch', character_image: 'https://www.ssbwiki.com/images/b/b2/Mr._Game_%26_Watch_SSB4.png')
