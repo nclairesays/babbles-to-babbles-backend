@@ -11,7 +11,9 @@ kirby = Character.create(name: 'Kirby', character_image: 'https://www.ssbwiki.co
 link = Character.create(name: 'Link', character_image: 'https://www.ssbwiki.com/images/3/32/Link_SSB4.png')
 yoshi = Character.create(name: 'Yoshi', character_image: 'https://www.ssbwiki.com/images/2/29/Yoshi_SSB4.png')
 jiggly_puff = Character.create(name: 'Jiggly Puff', character_image: 'https://www.ssbwiki.com/images/a/a6/Jigglypuff_SSB4.png')
-toad = Character.create(name: 'Toad', character_image: 'https://upload.wikimedia.org/wikipedia/en/d/d1/Toad_3D_Land.png')
 mewtwo = Character.create(name: 'Mewtwo', character_image: 'https://www.ssbwiki.com/images/d/da/Mewtwo_SSB4.png')
 ike = Character.create(name: 'Ike', character_image: 'https://www.ssbwiki.com/images/e/e8/Ike_SSB4.png')
 mr_game_watch = Character.create(name: 'Mr. Game & Watch', character_image: 'https://www.ssbwiki.com/images/b/b2/Mr._Game_%26_Watch_SSB4.png')
+# toad = Character.create(name: 'Toad', character_image: 'https://upload.wikimedia.org/wikipedia/en/d/d1/Toad_3D_Land.png')
+king_dedede = Character.create(name: 'King Dedede', character_image: 'https://www.ssbwiki.com/images/archive/f/f5/20180703005208%21King_Dedede_SSBU.png')
+
