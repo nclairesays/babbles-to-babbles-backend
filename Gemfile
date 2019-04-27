@@ -15,6 +15,8 @@ gem 'taps'
 
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
+
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -67,6 +69,8 @@ end
 #   gem 'pg'
 # end
 
+
+gem 'rails_12factor', group: :production
 
 group :test do
   # Adds support for Capybara system testing and selenium driver
