@@ -21,7 +21,6 @@
 /storage/*
 !/storage/.keep
 
-/node_modules
 /yarn-error.log
 
 /public/assets
@@ -31,5 +30,4 @@
 /config/master.key
 
 
-.env
 .env
