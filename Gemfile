@@ -12,7 +12,7 @@ gem 'rails' #, '~> 5.2.2'
 
 gem 'pg'
 # gem 'sqlite3' #, '~>1.3.6'
-gem 'taps'
+# gem 'taps'
 
 
 
