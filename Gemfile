@@ -7,6 +7,10 @@ ruby '2.3.3'
 gem 'rails', '~> 5.2.2'
 
 
+gem 'pg'
+# gem 'sqlite3' #, '~>1.3.6'
+gem 'taps'
+
 
 
 # Use Puma as the app server
@@ -47,7 +51,7 @@ group :development, :test do
 
  # Use sqlite3 as the database for Active Record -- development
   #add this here, using postgres for produdction
-  gem 'sqlite3'
+  # gem 'sqlite3'
 end
 
 group :development do
@@ -59,9 +63,9 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
 
-group :production do
-  gem 'pg'
-end
+# group :production do
+#   gem 'pg'
+# end
 
 
 group :test do
