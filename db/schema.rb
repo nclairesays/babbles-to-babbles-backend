@@ -28,10 +28,11 @@ ActiveRecord::Schema.define(version: 2019_01_25_164728) do
   create_table "wins", force: :cascade do |t|
     t.string "quote"
     t.string "image_url"
-    t.integer "character_id"
+    t.bigint "character_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["character_id"], name: "index_wins_on_character_id"
   end
 
+  add_foreign_key "wins", "characters"
 end
