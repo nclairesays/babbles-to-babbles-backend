@@ -1,6 +1,13 @@
 @font-face {
-    font-family: 'vcr';
-    src: url('./assets/VCR_OSD_MONO.woff');
+    font-family: 'VCR';
+    font-style: normal;
+    font-weight: normal;
+    src: url('./assets/VCR_OSD_MONO.woff'),
+         url('./assets/VCR_OSD_MONO.ttf') format('truetype') /* ,Safari, Android, iOS */
+}
+
+body {
+    font-family: 'VCR', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .jumbotron {
@@ -44,11 +51,6 @@
     justify-content: center;
 }
 
-body {
-    /* height: 100%; */
-    font-family: 'vcr';
-
-}
 
 .option:hover {
     cursor: pointer;
