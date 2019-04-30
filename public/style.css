@@ -1,0 +1,51 @@
+@font-face {
+    font-family: vcr;
+    src: url(./assets/VCR_OSD_MONO.woff);
+}
+
+.jumbotron {
+    /* max-height: 30vh */
+    margin-bottom: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    display: flex;
+   
+}
+
+
+#view {
+    padding-left: 15vw;
+    padding-right: 15vw; 
+    display: flex;
+    justify-content: center;
+    align-content: center; 
+    max-height: 75vh;
+}
+
+#game-view {
+    display: flex;
+    justify-content: space-between;
+}
+
+#judge {
+    flex: 1
+}
+
+#player-view {
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+
+}
+
+body {
+    /* height: 100%; */
+    font-family: vcr;
+
+}
+
+.option:hover {
+    cursor: pointer;
+}

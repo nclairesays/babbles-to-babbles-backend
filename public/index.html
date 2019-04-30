@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Babbles-to-Babbles</title>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+    <div class="jumbotron">
+        <div class="container text-center">
+            <h1 id="heading">Babbles-to-Babbles!</h1>
+            
+
+            <span id="span-one">
+                <h3>Choose Your Character!</h3>
+            
+            </span>
+            <button id="main-button" style="display:none; margin:auto">
+                Start Game
+            </button>
+        </div>
+    </div>
+    
+    
+    <div id="view" class="container-fluid bg-3 text-center">
+        <div id="all-characters-view">
+            <div class="row">
+                <main id="all-characters-list">
+                
+                </main>
+            </div>
+        </div>
+        <div id="game-view" >
+            <div id="judge">
+            
+            </div>
+            <div id="player-view" style="width: 60%;">
+                <span id="player-span">
+                
+                </span>
+                
+            </div>
+            <div id="cartoon" hidden>
+               cartoon
+            </div>
+        </div>
+    </div>
+    
+    <script src="./src/index.js"></script>
+    <script src="./src/game.js"></script>
+
+</body>
+</html>
