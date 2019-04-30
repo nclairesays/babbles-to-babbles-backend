@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'vcr';
-    src: url(./assets/VCR_OSD_MONO.woff);
+    src: url('./assets/VCR_OSD_MONO.woff');
 }
 
 .jumbotron {
