@@ -1,4 +1,5 @@
-let url ='https://protected-cliffs-89398.herokuapp.com'
+const url ='https://protected-cliffs-89398.herokuapp.com'
+// const url = 'http://localhost:3000'
 const characterDataURL = `${url}/characters`
 
 
@@ -35,7 +36,6 @@ const fetchCharacters = () => {
         .then(res => characters = res)
         .then(renderCharacterCards)
 }
-
 const renderCharacterCards = () => {
     main.innerHTML = ''
     characters.forEach((character) => {
