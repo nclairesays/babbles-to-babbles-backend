@@ -1,13 +1,14 @@
 @font-face {
-    font-family: 'VCR';
-    font-style: normal;
+    font-family: "VCR";
+    src: url('./assets/VCR_OSD_MONO.woff2') format('woff2'),
+         url('./assets/VCR_OSD_MONO.woff') format('woff'),
+         url('./assets/VCR_OSD_MONO.ttf') format('truetype'); /* ,Safari, Android, iOS */
     font-weight: normal;
-    src: url('./assets/VCR_OSD_MONO.woff'),
-         url('./assets/VCR_OSD_MONO.ttf') format('truetype') /* ,Safari, Android, iOS */
+    font-style: normal;
 }
 
 body {
-    font-family: 'VCR', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: "VCR", "Courier New", Courier, "Lucida Console", Monaco, monospace
 }
 
 .jumbotron {
