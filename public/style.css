@@ -1,5 +1,5 @@
 @font-face {
-    font-family: vcr;
+    font-family: 'vcr';
     src: url(./assets/VCR_OSD_MONO.woff);
 }
 
@@ -46,7 +46,7 @@
 
 body {
     /* height: 100%; */
-    font-family: vcr;
+    font-family: 'vcr';
 
 }
 
