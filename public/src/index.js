@@ -1,4 +1,7 @@
-const characterDataURL = 'http://localhost:3000/characters'
+let url ='https://protected-cliffs-89398.herokuapp.com'
+const characterDataURL = `${url}/characters`
+
+
 const ce = (arg) => {return document.createElement(arg)}
 const qs = (arg) => {return document.querySelector(arg)}
 
@@ -32,6 +35,7 @@ const fetchCharacters = () => {
         .then(res => characters = res)
         .then(renderCharacterCards)
 }
+
 const renderCharacterCards = () => {
     main.innerHTML = ''
     characters.forEach((character) => {
